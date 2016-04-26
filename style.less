@@ -1,0 +1,87 @@
+@primary-bg: #00FF88;
+@light-bg: #fff ;
+@dark-bg: #333;
+@light-text: rgba(64, 64, 64, .8) !important;
+@dark-text:  rgba(255, 255, 255, .8) !important;
+@head-font: 'Chewy', cursive;
+
+body {
+  background-image: url("http://www.mb3d.co.uk/mb3d/Wood_Seamless_and_Tileable_High_Res_Textures_files/Wood_06_UV_H_CM_1.jpg");
+  background-size: 50%;
+}
+
+.block-bright {
+  background-color: @primary-bg;
+  color: @light-text;
+}
+
+.block-light {
+  background-color: @light-bg;
+  color: @light-text;
+}
+
+.block-dark {
+  background-color: @dark-bg;
+  color: @dark-text;
+}
+
+.push-down {
+  margin-top: 5%;
+}
+
+.push-up {
+  margin-bottom: 5%;
+}
+
+.push-left {
+  margin-right: 5%;
+}
+
+.push-right {
+  margin-left: 5%;
+}
+
+.pizzazz {
+  font-family: @head-font;
+}
+
+.border-dark {
+  border: 5px solid @dark-bg;
+  border-color: @light-text;
+}
+
+.border-light {
+  border: 5px solid @light-bg;
+  border-color: @dark-text;
+}
+
+.large {
+  font-size: 200%;
+}
+
+.width-fix {
+  width: 100%;
+}
+
+.cropper {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 60%;
+}
+
+.cropper img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.left-fix {
+  padding-left: 15px;
+}
+
+.caption {
+  word-wrap: break-word;
+}
